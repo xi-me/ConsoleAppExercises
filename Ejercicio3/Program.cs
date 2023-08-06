@@ -56,7 +56,10 @@ internal class Program
             Console.Write($"${renta}".PadRight(20));
             Console.WriteLine($"${neto}".PadRight(20));
         }
+
         Console.WriteLine();
+        Console.WriteLine("----------------------------------");
         Console.WriteLine($"Total de planilla: ${allWages}");
+        Console.WriteLine("----------------------------------");
     }
 }
